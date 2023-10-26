@@ -44,7 +44,7 @@ export const ConnectWalletModal: React.FC<WalletModalProps> = ({
       <div
         className={`bg-white rounded-lg flex w-[500px] flex-col p-5 gap-[10px] transition-all duration-300 overflow-hidden justify-start ${
           !address
-            ? 'h-[500px] md:w-[380px]'
+            ? 'h-[300px] md:w-[380px]'
             : `h-[300px] min-[430px]:h-[320px] md:h-[348px] ${
                 errorMsg ? 'h-[312px] min-[430px]:h-[332px] md:h-[360px]' : ''
               }`
