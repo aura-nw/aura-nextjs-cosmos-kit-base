@@ -69,11 +69,12 @@ const Header = () => {
     >
       <Box alignItems="center">
         <Box sx={{ width: 112, cursor: 'pointer' }}>
-          <img
+        <span className='text-[80px] text-white font-bold'>LOGO </span>
+          {/* <img
             src="/imgs/main-logo.png"
             style={{ width: '120px', height: '30px' }}
             alt="logo"
-          />
+          /> */}
         </Box>
       </Box>
 

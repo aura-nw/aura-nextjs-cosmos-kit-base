@@ -47,13 +47,13 @@ export const HomePage = () => {
             style={{ fontFamily: 'Product Sans' }}
             className="text-[42px] font-bold flex items-center leading-[63px]"
           >
-            Make Youself
+            Base Connect
             <img
               className="mx-[15px]"
               src="/icons/wallet-icon.svg"
               style={{ width: '44px', height: '44px' }}
             />
-            Recognizable
+            Wallet
           </span>
         </div>
         <div className="gap-8 flex flex-col">
