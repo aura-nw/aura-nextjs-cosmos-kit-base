@@ -1,0 +1,43 @@
+:root {
+  // variable for component
+  --form-input-text-text-filled: var(--text-neutral-high-em);
+  --form-input-bg-bg-default: var(--bg-neutral-fill-low-em);
+  --button-focus-bg-neutral-focus: var(--bg-neutral-fill-low-em);
+  --button-focus-bg-danger-focus: var(--bg-danger-low-em);
+  --button-focus-bg-primary-focus: var(--bg-primary-low-em);
+  --button-bg-bg-transparent: var(--bg-neutral-overlay-transparent);
+  --button-border-border-primary: var(--border-primary-low-em);
+  --form-input-border-border-disabled: var(--border-neutral-transparent);
+  --button-bg-bg-neutral-hover: var(--bg-neutral-fill-low-em);
+  --form-input-border-border-filled: var(--border-neutral-low-em);
+  --button-border-border-danger: var(--border-danger-medium-em);
+  --button-text-text-danger-active: var(--text-danger-medium-em);
+  --bg-danger-subtle-hover: var(--bg-danger-low-em);
+  --button-bg-bg-danger-subtle-active: var(--bg-danger-base);
+  --button-bg-bg-danger-hover: var(--bg-danger-high-em);
+  --button-bg-bg-danger-active: var(--bg-danger-medium-em);
+  --button-border-border-neutral: var(--border-neutral-low-em);
+  --button-text-text-neutral-high: var(--text-neutral-high-em);
+  --bg-disabled: var(--bg-neutral-disabled-medium-em);
+  --button-text-text-primary-disabled: var(--text-neutral-low-em);
+  --button-text-text-primary-active: var(--text-primary-medium-em);
+  --form-input-border-border-danger: var(--border-danger-high-em);
+  --button-bg-bg-disabled: var(--bg-neutral-disabled-high-em);
+  --form-input-border-border-focus: var(--border-primary-high-em);
+  --bg-primary-subtle-hover: var(--bg-primary-low-em);
+  --button-text-text-neutral-white: var(--text-neutral-white);
+  --form-input-text-text-default: var(--text-neutral-medium-em);
+  --form-input-bg-bg-disabled: var(--bg-neutral-disabled-low-em);
+  --button-bg-bg-primary-hover: var(--bg-primary-high-em);
+  --form-input-border-border-default: var(--border-neutral-transparent);
+  --border: var(--border-neutral-transparent);
+  --form-input-text-text-disabled: var(--text-neutral-low-em);
+  --button-bg-bg-primary-subtle-active: var(--bg-primary-base);
+  --button-bg-bg-primary-active: var(--bg-primary-medium-em);
+  --form-input-bg-bg-filled: var(--bg-neutral-1000);
+}
+
+// export everything
+:export {
+  textWhite: var(--button-text-text-neutral-white);
+}

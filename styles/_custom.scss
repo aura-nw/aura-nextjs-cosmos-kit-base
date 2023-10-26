@@ -1,0 +1,9 @@
+@for $i from 1 through 12 {
+    .max-line-#{$i} {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: #{$i};
+      -webkit-box-orient: vertical;
+    }
+  }
