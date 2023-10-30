@@ -22,6 +22,7 @@ import { wallets as c98Extension } from '@cosmos-kit/coin98-extension';
 import 'src/styles/globals.scss';
 import { ConnectWalletModal } from 'components/ConnectWalletModal.tsx/ConnectWalletModal';
 import { WalletProvider } from '../context';
+import Layout from '@/features/layout/Layout';
 
 const LeapExtension = leapExtension[0];
 const LeapMobileWallet = leapExtension[1];
@@ -48,7 +49,7 @@ function AppWrapper(props: AppProps & { baseUrl: string }) {
         ...c98Extension,
         ...keplrExtension,
         ...leapExtension,
-    ] as MainWalletBase[]);
+      ] as MainWalletBase[]);
   return (
     <Provider store={store}>
       <WalletProvider>
@@ -71,7 +72,9 @@ function AppWrapper(props: AppProps & { baseUrl: string }) {
           signerOptions={{}}
           walletModal={ConnectWalletModal as any}
         >
-          <App {...props} />
+          <Layout>
+            <App {...props} />{' '}
+          </Layout>
         </ChainProvider>
       </WalletProvider>
     </Provider>

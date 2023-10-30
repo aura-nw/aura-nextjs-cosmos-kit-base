@@ -1,4 +1,3 @@
-import Layout from '@/features/layout/Layout';
 import { useTranslation } from 'react-i18next';
 import { HomePage } from '../view/homepage';
 
@@ -15,8 +14,6 @@ declare global {
 }
 export default function Home() {
   return (
-    <Layout>
       <HomePage />
-    </Layout>
   );
 }

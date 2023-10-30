@@ -1,6 +1,4 @@
-import { CButton } from '@/features/layout/common/MComponents'
 import { useChain, useManager } from '@cosmos-kit/react'
-import { Button } from '@mui/material'
 import { MouseEventHandler } from 'react'
 import {
   WalletConnectButtonGroup,
